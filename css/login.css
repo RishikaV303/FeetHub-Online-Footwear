@@ -1,0 +1,111 @@
+*{
+    scrollbar-width: thin;              /* auto | thin | none */
+    scrollbar-color: var(--primary-yellow) #f1f1f1;
+}
+#login{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#login .wrapper{
+    width: 30%;
+    height: 80%;
+    background-color: var(--secondary-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login .wrapper .form-container{
+    width: 80%;
+    height: 90%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* gap: 10px; */
+}
+#login .wrapper .form-container .info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+    /* padding-bottom: 10px; */
+}
+#login .wrapper .form-container .header-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+#login .wrapper .form-container h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+#login .wrapper .form-container h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-weight: 400;
+}
+
+#login .wrapper .form-container .info .full-width{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#login .wrapper .form-container .info .full-width input{
+  background-color: transparent;
+  border: 1px solid var(--primary-yellow);
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+}
+
+.personi{
+    font-size: 24px;
+}
+.proceed{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.button-primary{
+    background-color: var(--primary-yellow);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 250px;
+}
+#login .wrapper .last-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#login .wrapper h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-weight: 400;
+}

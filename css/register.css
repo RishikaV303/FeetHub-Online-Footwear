@@ -1,0 +1,163 @@
+*{
+    scrollbar-width: thin;              /* auto | thin | none */
+    scrollbar-color: var(--primary-yellow) #f1f1f1;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+nav .wrap{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+nav .back a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#register{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#register .wrapper{
+    width: 70%;
+    height: 90%;
+    background-color: var(--secondary-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#register .wrapper .form-container{
+    width: 95%;
+    height: 95%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+#register .wrapper .form-container .info{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+#register .wrapper .form-container .header-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+#register .wrapper .form-container h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+#register .wrapper .form-container h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-weight: 400;
+}
+#register .wrapper .form-container .info .form-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+#register .wrapper .form-container .info .form-row .form-group{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#register .wrapper .form-container .info .form-group input,
+select,
+textarea {
+  background-color: transparent;
+  border: 1px solid var(--primary-yellow);
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+}
+#register .wrapper .form-container .info .full-width{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#register .wrapper .form-container .info .full-width input{
+  background-color: transparent;
+  border: 1px solid var(--primary-yellow);
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+}
+#register .wrapper .form-container .info .form-group {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#register .wrapper .form-container .info .form-row .form-group select option {
+  color: rgb(255, 255, 255);
+  background-color: var(--secondary-blue);
+}
+
+.personi{
+    font-size: 24px;
+}
+.proceed{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.button-primary{
+    background-color: var(--primary-yellow);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 250px;
+}
+#register .wrapper .last-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#register .wrapper h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-weight: 400;
+}
