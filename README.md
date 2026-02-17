@@ -1,14 +1,30 @@
 # FeetHub – Role-Based E-Commerce Web Application
 
-FeetHub is a full-stack e-commerce web application with multiple user roles including Admin, Sub-Admin, Merchant, and Customer. The system provides role-based dashboards, product management, and order tracking.
+FeetHub is a full-stack e-commerce web application built with PHP and MySQL. The system supports multiple user roles including Admin, Sub-Admin, Merchant, and Customer, each with separate dashboards and permissions.
 
-## Features
-- Role-based authentication (Admin, Sub-Admin, Merchant, Customer)
-- Product CRUD operations
+## Key Features
+
+### Authentication & Roles
+- Role-based login system
+- Separate dashboards for:
+  - Admin
+  - Sub-Admin
+  - Merchant
+  - Customer
+
+### Product Management
+- CRUD operations for products
+- Merchant product management dashboard
+- Admin/Sub-admin control features
+
+### Shopping & Orders
 - Add to cart functionality
-- Order tracking system
-- Dynamic dashboard redirection based on user role
-- Database-driven content
+- Order placement system
+- Order tracking feature
+
+### Database
+- MySQL database for users, products, and orders
+- Dynamic content rendering from database
 
 ## Tech Stack
 - Frontend: HTML, CSS, JavaScript, jQuery
@@ -16,17 +32,14 @@ FeetHub is a full-stack e-commerce web application with multiple user roles incl
 - Database: MySQL
 
 ## Setup Instructions
-1. Download or clone the repository
-2. Move project folder to `htdocs` (for XAMPP)
-3. Import the SQL file into phpMyAdmin
-4. Start Apache and MySQL in XAMPP
-5. Open `localhost/FeetHub` in browser
+1. Clone or download the repository
+2. Move the project folder to:
+3. Open phpMyAdmin
+4. Create a new database (e.g., `feethub`)
+5. Import the provided `.sql` file
+6. Start Apache and MySQL in XAMPP
+7. Open in browser:
 
-## Default Roles
-- Admin
-- Sub-Admin
-- Merchant
-- Customer
 
-## Project Purpose
-This project demonstrates backend logic such as authentication, role-based access control, CRUD operations, and order management in a real-world e-commerce scenario.
+## Project Goal
+This project demonstrates backend development concepts such as authentication, role-based access control, CRUD operations, and order management in a real-world e-commerce scenario.
